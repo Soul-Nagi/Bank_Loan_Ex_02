@@ -24,7 +24,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-'''
+"""
 -model.py
 
 from django.db import models
@@ -46,7 +46,7 @@ class bankloanAdmin(admin.ModelAdmin):
 from django.contrib import admin
 from .models import bankloan,bankloanAdmin
 admin.site.register(bankloan,bankloanAdmin)
-'''
+"""
 
 ## OUTPUT
 
